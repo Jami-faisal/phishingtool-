@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SYSTEM COMPROMISED</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: #000;
+            color: #ff0000;
+            text-align: center;
+            padding: 50px;
+        }
+        .terminal {
+            background-color: #000;
+            border: 2px solid #ff0000;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            border-radius: 10px;
+        }
+        .blink {
+            animation: blink 1s infinite;
+        }
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        .warning {
+            color: #ffff00;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="terminal">
+        <h1 class="blink">⚠️ SYSTEM COMPROMISED ⚠️</h1>
+        <p>Your system has been accessed by unauthorized personnel.</p>
+        <p class="warning">Username and password logged for security audit.</p>
+        <p>Contact IT Security Immediately: security@company.com</p>
+        <p>[ACCESS GRANTED]</p>
+        <p>[SECURITY BREACH DETECTED]</p>
+        <p>[SYSTEM LOCKDOWN INITIATED]</p>
+    </div>
+</body>
+</html>
